@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Post from "./components/post/post";
+import User from "./components/users/user";
 
 import "./App.css";
 
@@ -11,7 +12,9 @@ class App extends Component {
           <div className="col-md-6">
             <Post />
           </div>
-          <div className="col-md-6"></div>
+          <div className="col-md-6">
+            <User />
+          </div>
         </div>
       </div>
     );
